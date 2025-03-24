@@ -23,7 +23,7 @@ const Header = () => {
         <p className='text-1 sm:text-2xl md:text-[30px] '>I'm frontend developer</p>
         
         <div className='space-x-6 mt-6'>
-            <a href="" className='border px-8 py-3 rounded '>About ME</a>
+            <a href="#About" className='border px-8 py-3 rounded '>About ME</a>
         </div>
         
         </motion.div>
