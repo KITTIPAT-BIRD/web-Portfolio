@@ -37,6 +37,7 @@ const Navbar = () => {
           <li><a href="#Header" className="cursor-pointer hover:text-gray-400">Home</a></li>
           <li><a href="#About" className="cursor-pointer hover:text-gray-400">About</a></li>
           <li><a href="#Projects" className="cursor-pointer hover:text-gray-400">Projects</a></li>
+          <li><a href="#Certificate" className="cursor-pointer hover:text-gray-400">Certificate</a></li>
           <li><a href="#Contact" className="cursor-pointer hover:text-gray-400">Contact</a></li>
         </ul>
 
@@ -62,6 +63,7 @@ const Navbar = () => {
             <li><a href="#Header" onClick={() => setShowMobileMenu(false)} className="hover:text-gray-400">Home</a></li>
             <li><a href="#About" onClick={() => setShowMobileMenu(false)} className="hover:text-gray-400">About</a></li>
             <li><a href="#Projects" onClick={() => setShowMobileMenu(false)} className="hover:text-gray-400">Projects</a></li>
+            <li><a href="#Certificate" onClick={() => setShowMobileMenu(false)} className="hover:text-gray-400">Certificate</a></li>
             <li><a href="#Contact" onClick={() => setShowMobileMenu(false)} className="hover:text-gray-400">Contact</a></li>
           </ul>
         </div>
